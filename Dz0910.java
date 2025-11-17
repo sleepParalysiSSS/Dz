@@ -1,6 +1,6 @@
-
 import java.util.Random;
 import java.util.Scanner;
+
 public class Dz0910  {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -26,7 +26,7 @@ public class Dz0910  {
                 }
 
                 if (i == attempts) {
-                    System.out.println("Вы проиграли. Загаданное число: " + secret);
+                    System.out.println("Nice try. Загаданное число: " + secret);
                 }
             }
 
@@ -44,5 +44,6 @@ public class Dz0910  {
         scanner.close();
     }
 }
+
 
 
